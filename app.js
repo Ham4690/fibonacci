@@ -7,8 +7,7 @@ function fib(n) {
   }
   return fib(n - 1) + fib(n - 2);
 }
-
-const num = process.argv[2] || 0;
+const num = 40;
 for (let i = 0; i <= num; i++) {
     console.log(fib(i));
 }
